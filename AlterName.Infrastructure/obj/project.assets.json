@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "AlterName.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AlterName.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AlterName.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AlterName.Application.dll": {}
+        }
+      },
+      "AlterName.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/AlterName.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AlterName.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AlterName.Application/1.0.0": {
+      "type": "project",
+      "path": "../AlterName.Application/AlterName.Application.csproj",
+      "msbuildProject": "../AlterName.Application/AlterName.Application.csproj"
+    },
+    "AlterName.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AlterName.Domain/AlterName.Domain.csproj",
+      "msbuildProject": "../AlterName.Domain/AlterName.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "AlterName.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\MyShine\\templateTech\\MyCleanArchTemplate\\AlterName.Infrastructure\\AlterName.Infrastructure.csproj",
+      "projectName": "AlterName.Infrastructure",
+      "projectPath": "D:\\MyShine\\templateTech\\MyCleanArchTemplate\\AlterName.Infrastructure\\AlterName.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\MyShine\\templateTech\\MyCleanArchTemplate\\AlterName.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\MyShine\\templateTech\\MyCleanArchTemplate\\AlterName.Application\\AlterName.Application.csproj": {
+              "projectPath": "D:\\MyShine\\templateTech\\MyCleanArchTemplate\\AlterName.Application\\AlterName.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
