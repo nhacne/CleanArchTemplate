@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Nhatmiz",
+  "classifications": ["Web", "Clean Architecture", "API"],
+  "name": "Nhat Clean Architecture Template",
+  "identity": "Nhat.CleanArch.Template", 
+  "shortName": "nhat-clean",             
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "AlterName",               
+  "preferNameDirectory": true
+}
